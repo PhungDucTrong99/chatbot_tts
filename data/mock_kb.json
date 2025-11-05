@@ -1,0 +1,255 @@
+{
+  "schema": {
+    "entities": {
+      "FAQ": {
+        "fields": {
+          "id": "string",
+          "question": "string",
+          "answer": "string",
+          "tags": [
+            "string"
+          ],
+          "updated_at": "string"
+        }
+      }
+    }
+  },
+  "docs": [
+    {
+      "id": "faq-001",
+      "question": "What are the workshop hours?",
+      "answer": "Our workshop runs from 09:00 to 18:00, Monday to Friday, with a lunch break from 12:00 to 13:00.",
+      "tags": [
+        "schedule",
+        "hours"
+      ],
+      "updated_at": "2025-09-01"
+    },
+    {
+      "id": "faq-002",
+      "question": "How do we run the chatbot demo?",
+      "answer": "Install the requirements, set your OPENAI_API_KEY in .env, and run `python app_cli.py` or `streamlit run app_streamlit.py`.",
+      "tags": [
+        "demo",
+        "run"
+      ],
+      "updated_at": "2025-09-10"
+    },
+    {
+      "id": "faq-003",
+      "question": "Where are the conversation logs saved?",
+      "answer": "The logs are written to the `logs/` folder as JSONL, one file per session.",
+      "tags": [
+        "logs",
+        "debug"
+      ],
+      "updated_at": "2025-10-01"
+    },
+    {
+      "id": "faq-004",
+      "question": "Which models are used?",
+      "answer": "OpenAI for text generation (default gpt-4o-mini), text-embedding-3-small for embeddings, and a VITS model from HuggingFace (Coqui TTS) for speech.",
+      "tags": [
+        "models",
+        "openai",
+        "vits"
+      ],
+      "updated_at": "2025-10-02"
+    },
+    {
+      "id": "1",
+      "question": "Who is Mr. Do Van Khac?",
+      "answer": "# Introduction about Mr. Do Van Khac / KhacDV\n - Name: Do Van Khac\n - Account: KhacDV\n - Position:\n * Senior Executive Vice President (SEVP) at FPT Software\n * Chief Executive Officer (CEO) at FPT Japan\n## Work experience:\nOver his decades-long tenure, Do Van Khac has greatly contributed to the development of FPT Software and its overseas subsidiaries...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "bod",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "2",
+      "question": "Who is Mr. Nguyen Khai Hoan?",
+      "answer": "# Introduction about Mr. Nguyen Khai Hoan / HoanNK\n - Name: Nguyen Khai Hoan\n - Account: HoanNK\n - Position: Deputy General Director, Chief Financial Officer (CFO) and Chief Operating Officer (COO) at FPT Software\n## Overview:\nMr. Hoan graduated from the Financial Academy under the Government of the Russian Federation in 1999 and obtained his PhD in Economics at the Russian Academy of Sciences in 2003...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "bod",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "3",
+      "question": "Who is Mr. Dang Tran Phuong?",
+      "answer": "# Introduction about Mr. Dang Tran Phuong / PhuongDT\n - Name: Dang Tran Phuong\n - Account: PhuongDT\n - Position:\n * Deputy General Director at FPT Software\n * CEO of FPT Software Americas (FAM)\n## Work experience:\nMr. Phuong currently serves as CEO of FPT Americas and Vice President in charge of the Europe, Americas, and Middle East markets...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "bod",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "4",
+      "question": "Who is Mr. Tran Coi?",
+      "answer": "# Introduction about Mr. Tran Coi\n - Name: Tran Coi\n - Account: CoiT\n - Position: Managing Director at FPT Slovakia (FSK)\n## Work experience\nJoining FPT Software in 1996, Tran Coi has dedicated over two decades to building and strengthening its European presence...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "5",
+      "question": "Who is Mr. Ha Minh Tuan?",
+      "answer": "# Introduction about Mr. Ha Minh Tuan / TuanHM\n - Name: Ha Minh Tuan\n - Account: TuanHM\n - Position: Chief Executive Officer (CEO) at FPT Software Korea\n## Work experience\nMr. Tuan joined FPT Software in 2003 and has held multiple management positions, delivering outstanding results in both revenue and workforce development...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "6",
+      "question": "Who is Mr. Dang Tran Phuong?",
+      "answer": "# Introduction about Mr. Dang Tran Phuong / PhuongDT\n - Name: Dang Tran Phuong\n - Account: PhuongDT\n - Position:\n * Senior Executive Vice President (SEVP) at FPT Software\n * Chief Executive Officer (CEO) at FPT Software Americas\n## Work experience:\nMr. Phuong is currently CEO of FPT Software Americas and SEVP for Europe, the Americas, and the Middle East...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "bod",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "7",
+      "question": "Who is Mr. Do Tran Anh Vu?",
+      "answer": "# Introduction about Mr. Do Tran Anh Vu\n - Name: Do Tran Anh Vu\n - Account: VuDTA\n - Position: Managing Director at FPT Software Philippines\n## Work experience\nAppointed in 2022, Mr. Vu aims to turn FPT Software Philippines into one of the country's leading IT solution providers by 2025...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "8",
+      "question": "Who is Mr. Nguyen Khac Hiep?",
+      "answer": "# Introduction about Mr. Nguyen Khac Hiep / HiepNK\n - Name: Nguyen Khac Hiep\n - Account: HiepNK\n - Position: Director of the Smart Technology Solutions Business Unit (GST) at FPT Software\n## Work experience\nMr. Hiep joined FPT Software in 2008 and has led multiple key projects focused on intelligent platforms and solutions...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "9",
+      "question": "Who is Mr. Nguyen Tran Hung (David Nguyen)?",
+      "answer": "# Introduction about Mr. Nguyen Tran Hung / David Nguyen / HungNT3\n - Name: Nguyen Tran Hung / David Nguyen\n - Account: HungNT3\n - Position: Managing Director at FPT Asia Pacific (FAP)\n## Work experience\nAppointed in 2018, Mr. Hung has driven business growth across multiple regions including Singapore, the U.S., and Japan...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "10",
+      "question": "Who is Ms. Vo Thi Bich Hanh?",
+      "answer": "# Introduction about Ms. Vo Thi Bich Hanh / HanhVTB\n - Name: Vo Thi Bich Hanh\n - Account: HanhVTB\n - Position: Director of FPT Software Ho Chi Minh (FHM)\n## Work experience\nMs. Hanh joined FPT Software in 2006 and has demonstrated strong leadership and strategic vision, winning multiple company awards...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "11",
+      "question": "Who is Mr. Raghuram Sunkara?",
+      "answer": "# Introduction about Mr. Raghuram Sunkara\n - Name: Raghuram Sunkara\n - Account: raghu.s\n - Position: Managing Director at FPT Software India\n## Work experience\nWith over 30 years of experience at TCS, IBM, and DST, Mr. Raghuram oversees production and strategy operations in India...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "12",
+      "question": "Who is Mr. Nguyen Duc Kinh?",
+      "answer": "# Introduction about Mr. Nguyen Duc Kinh / KinhND\n - Name: Nguyen Duc Kinh\n - Account: KinhND\n - Position: Chief Executive Officer (CEO) at FPT Automotive (FA)\n## Work experience\nA graduate from Tohoku University in Japan, Mr. Kinh joined FPT Software in 2010 and now leads FPT Automotive, aiming to become a $1B global software provider by 2030...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "13",
+      "question": "Who is Mr. Vu Tien Dat?",
+      "answer": "# Introduction about Mr. Vu Tien Dat / DatVT\n - Name: Vu Tien Dat\n - Account: DatVT\n - Position: Chief Delivery Officer (CDO) at FPT Software\n## Work experience\nMr. Dat has held several leadership positions since joining FPT Software in 2005 and currently oversees global software production efficiency...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "bod",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "14",
+      "question": "Who is Mr. Rimah Ghaddar?",
+      "answer": "# Introduction about Mr. Rimah Ghaddar\n - Name: Rimah Ghaddar\n - Account: rimahg\n - Position: Managing Director at FPT Software Middle East\n## Work experience\nAppointed in 2023, Mr. Rimah leads FPT Software's operations in the Middle East, leveraging years of business development experience with IBM, DXC, and Kyndryl...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    },
+    {
+      "id": "15",
+      "question": "Who is Mr. Tran Hong Chung?",
+      "answer": "# Introduction about Mr. Tran Hong Chung / ChungTH\n - Name: Tran Hong Chung\n - Account: ChungTH\n - Position: Chief Executive Officer (CEO) at FPT Software Malaysia (FMAS)\n## Work experience\nMr. Chung was appointed CEO of FPT Malaysia in 2015 and has led the company to significant success across Southeast Asia...",
+      "tags": [
+        "bod",
+        "bod",
+        "",
+        "manager",
+        "profile"
+      ],
+      "updated_at": "2025-10-25"
+    }
+  ]
+}
